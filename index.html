@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przemek's homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/main-style.css" rel="stylesheet">
+    <link href="CSS/navigation.css" rel="stylesheet">
+    <link href="CSS/button.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <script defer src="js/theme-button.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="js-siteBackground font">
+    <div class="content">
+        <header>
+            <h1 class="content__header">My first webpage</h1>
+            <button class="js-themeButton button">Change background for <span class="js-themeName">dark</span></button>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__siteNavi">
+                <li><a class="navigation__link" href="#aboutMe">About Me</a></li>
+                <li><a class="navigation__link" href="#interests">Interests</a></li>
+                <li><a class="navigation__link" href="#quote">Quote</a></li>
+                <li><a class="navigation__link" href="#movies">My favourite movies</a></li>
+            </ul>
+        </nav>
+        <main class="mainSection">
+            <img class="mainSection__image" width="231" height="308" src="images/Przemek.jpg" alt="Przemyslaw Majewski">
+            <section id="aboutMe">
+                <h2>About me</h2>
+                <p class="content--leftSideText">My journey of learning leadership started few years ago when I began
+                    work in
+                    team,
+                    first
+                    as member and then as a leading manager. I helped people to get to know themselves better, I believe
+                    that me
+                    as person contribute to their development.<br>
+                    But now it is my turn. It is time for me to follow what has always interested me and had never
+                    chance to
+                    follow it.
+                    In above picture you see future frontend developer.
+                </p>
+            </section>
+            <section id="interests">
+                <h2>Interests</h2>
+                <p class="content--leftSideText">JavaScript, Python, Movies, Golf, New Technologies, Finance, Real
+                    Estate,
+                    Productivity, Leadership </p>
+            </section>
+            <section id="quote">
+                <h2>Quote</h2>
+                <p class="content--leftSideText">Failure is not falling off the bike, but not getting on it again.</p>
+            </section>
+            <section id="movies">
+                <h2>My favourite movies</h2>
+                <div class="containerTable">
+                    <table class="containerTable__table">
+                        <tr class="containerTable__row">
+                            <th class="containerTable__cell containerTable--headerCol" scope="col">Title</th>
+                            <th class="containerTable__cell containerTable--headerCol" scope="col">Year</th>
+                            <th class="containerTable__cell containerTable--headerCol" scope="col">Director</th>
+                            <th class="containerTable__cell containerTable--headerCol" scope="col">Main actor</th>
+                        </tr>
+                        <tr class="containerTable__row">
+                            <th class="containerTable__cell containerTable--headerRow" scope="row">The Greatest Game
+                                Ever Played
+                            </th>
+                            <td class="containerTable__cell">2005</td>
+                            <td class="containerTable__cell">Bill Paxton</td>
+                            <td class="containerTable__cell">Shia LaBeouf</td>
+                        </tr>
+                        <tr class="containerTable__row">
+                            <th class="containerTable__cell containerTable--headerRow" scope="row">Forest Gump</th>
+                            <td class="containerTable__cell">1994</td>
+                            <td class="containerTable__cell">Robert Zameckis</td>
+                            <td class="containerTable__cell">Tom Hanks</td>
+                        </tr>
+                        <tr class="containerTable__row">
+                            <th class="containerTable__cell containerTable--headerRow" scope="row">War Dogs</th>
+                            <td class="containerTable__cell">2016</td>
+                            <td class="containerTable__cell">Tod Phillips</td>
+                            <td class="containerTable__cell">Milles Teller</td>
+                        </tr>
+                        <tr class="containerTable__row">
+                            <th class="containerTable__cell containerTable--headerRow" scope="row">Barry Seal: Król
+                                Przemytu</th>
+                            <td class="containerTable__cell">2017</td>
+                            <td class="containerTable__cell">Doug Liman</td>
+                            <td class="containerTable__cell">Tom Cruise</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>
+                Copyright ©2022 Przemysław Majewski.
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.containerTable {
+    overflow-x: auto;
+}
+
+.containerTable__table {
+    border-collapse: collapse;
+    min-width: 100%;
+}
+
+.containerTable__cell {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.containerTable--headerCol {
+    background-color: #5eb10aa6;
+}
+
+.containerTable--headerRow {
+    background-color: #1daedfbb;
+}
+
+.containerTable__row:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.containerTable__row:hover {
+    background-color: #dddddd;
+}

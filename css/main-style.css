@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.font {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center
+}
+
+.content--leftSideText {
+    text-align: left;
+}
+
+.content__header {
+    color: #2828a1;
+    text-shadow: 2px 2px 6px #50526b;
+}
+
+.mainSection {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mainSection__image {
+    border-radius: 50%;
+    box-shadow: 4px 4px 6px #42445a;
+}

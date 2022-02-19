@@ -1,0 +1,20 @@
+.navigation__siteNavi {
+    background-color: #3757ad;
+    text-shadow: 4px 4px 6px #42445a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px 100px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.navigation__link {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    font-weight: 700;
+}
